@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="js/script.js" defer></script>
-     <!-- Bootstrap  -->
+    <!-- Bootstrap  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </head>
@@ -23,7 +22,25 @@
         <div class="container">
         <div class="row">
             <!-- Dashboard Content -->
+            <div class="col" id="weekly-tasks"></div>
+            <form id="task-form">
+                <div>
+                <label for="name-input">Name</label>
+                <input type="text" id="name-input" name="name">
+                </div>
+                <div>
+                <label for="goal-input">Daily Task Goal</label>
+                <input type="number" id="goal-input" name="task-goal">
+                </div>
+                <div>
+                <label for="bonus-input">Weekly Bonus Tasks</label>
+                <input type="number" id="bonus-input" name="weekly-bonus">
+                </div>
+                <button type="submit" id="goal-btn">Submit</button>
+            </form>
+            <p id="goal-message"></p>
         </div>
+        <script src="js/task-manager.js"></script>
     </div>
 </body>
 </html>

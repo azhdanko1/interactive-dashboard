@@ -5,3 +5,16 @@ body {
 h1 {
     color: purple; 
 }
+
+label {
+    width: 250px;
+    text-align: left;
+}
+
+button {
+    margin-top: 20px;
+}
+
+#task-form {
+    margin: 20px 0;
+}
