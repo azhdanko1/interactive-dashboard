@@ -40,6 +40,33 @@
                 <button type="submit" id="goal-btn">Submit</button>
             </form>
             <p id="goal-message"></p>
+
+            <!-- Metric Converter -->
+             <div class="col" id="metric-converter">
+                <form>
+                    <div>
+                    <label for="value-input"> Value </label>
+                    <input type="number" id="value-input" name="value">
+                    </div>
+                    <div>
+                    <label for="conversion-type">Conversion Type</label>
+                    <select id="conversion" name="conversion">
+                        <option value="1">Inch to Centimeter (in to cm)</option>
+                        <option value="2">Foot to Centimeter (ft to cm)</option>
+                        <option value="3">Yard to Meter (yd to m)</option>
+                        <option value="4">Mile to Kilometer (mi to km)</option>
+                        <option value="5">Centimeter to Inch (cm to in)</option>
+                        <option value="6">Centimeter to Foot (cm to ft)</option>
+                        <option value="7">Meter to Yard (m to yd)</option>
+                        <option value="8">Kilometer to Mile (km to mi)</option>
+                    </select>
+                    </div>
+                    <button type="submit" id="conversion-btn">Submit</button>
+                </form>
+
+                <p id="convert-message"></p>
+                <script src="js/metric-converter.js"></script>
+             </div>
         </div>
         <script src="js/task-manager.js"></script>
     </div>
