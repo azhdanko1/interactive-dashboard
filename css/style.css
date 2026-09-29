@@ -6,6 +6,10 @@ h1 {
     color: purple; 
 }
 
+.row {
+    display: block;
+}
+
 label {
     width: 250px;
     text-align: left;

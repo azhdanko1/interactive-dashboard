@@ -64,3 +64,6 @@ DEFAULT
 DISPLAY output
 
 END
+
+## Magic Eight Ball
+This feature allows you to ask any yes/no question and recieve a randomized answer from the Eight Ball. This feature includes animation, the use or arrays, new additions to the code, and so on. This assignment was also used to learn more about GitHub.
